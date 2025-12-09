@@ -1,0 +1,4 @@
+See file:///C:/FAMNM/ri3d-2026/build/tmp/linkFrcUserProgramReleaseExecutable/output.txt for all output for linkFrcUserProgramReleaseExecutable.
+linking frcUserProgram successful.
+
+Finished linkFrcUserProgramReleaseExecutable, see full log file:///C:/FAMNM/ri3d-2026/build/tmp/linkFrcUserProgramReleaseExecutable/output.txt.
