@@ -42,7 +42,6 @@ public:
     ~Drivetrain() 
         { }
 
-
     // Accessor Methods.
     inline void ToggleFieldRelative()
         {  m_bIsFieldRelative = !m_bIsFieldRelative;  }
@@ -50,18 +49,9 @@ public:
     inline bool IsFieldRelative()
         {  return {m_bIsFieldRelative};  }
 
-    /*inline void SetUsingCamera( bool bUseCamera )
-        {  m_bUseCameraMeasurements = bUseCamera;  }*/
-
 
     inline frc::Rotation2d GetGyroRotation2d()
         { return{ frc::Rotation2d(units::degree_t{ -m_gyro.GetYaw().GetValue() }) }; }
-
-
-    //void ResetOdometry( frc::Pose2d pose = frc::Pose2d{0_m, 0_m, frc::Rotation2d(0_deg)} );
-    //void SetVisionMeasurements();
-    //frc::Pose2d GetBotPose();
-
 
     // Class Methods.
     /**
@@ -118,8 +108,6 @@ public:
 
     void Stop();
 
-    //void FollowTrajectory( const choreo::SwerveSample& sample);
-
     SwerveModule m_frontLeft{1,2,9};
     SwerveModule m_frontRight{3,4,10};
     SwerveModule m_backLeft{5,6,11};
@@ -134,7 +122,6 @@ private:
 
     double m_dGyroOffset;
 
-    //-GMS - updated to 2025 design
     frc::Translation2d m_frontLeftLocation{+drivetrain::kWheelDistance / 2, -drivetrain::kWheelDistance / 2};     //Front Left Wheel Position
     frc::Translation2d m_frontRightLocation{+drivetrain::kWheelDistance / 2, +drivetrain::kWheelDistance / 2};    //Front Right Wheel Position
     frc::Translation2d m_backLeftLocation{-drivetrain::kWheelDistance / 2, -drivetrain::kWheelDistance / 2};      //Back Left Wheel Position
@@ -152,52 +139,4 @@ private:
         m_backLeftLocation,
         m_backRightLocation
     };
-
-    /*
-//-GMS - Limelight 2025
-// The SwerveDrivePoseEstimator class is similar to the standard Odometry 
-// class, but including functions for adding vision measurements and 
-// updating position with time. This will work with Limelight's MegaTag2
-// features to allow us to read April Tags and get an estimated field positon.
-
-    frc::SwerveDrivePoseEstimator<4> m_poseEstimator{
-        m_kinematics,
-        GetGyroRotation2d(),
-        {
-            m_frontLeft.GetPosition(),
-            m_frontRight.GetPosition(),
-            m_backLeft.GetPosition(),
-            m_backRight.GetPosition()
-        },
-        frc::Pose2d{0_m, 0_m, frc::Rotation2d{units::degree_t{0.0}}}
-    };
-
-    frc::Field2d m_field;
-
-    frc::PIDController m_xFeedbackController{0, 0.0, 0.0};
-    frc::PIDController m_yFeedbackController{0, 0.0, 0.0};
-    frc::PIDController m_headingFeedbackController{0, 0.0, 0.0};
-
-
-    // This is an extension of the SwerveDriveOdometry class used to calculate
-    // robot position and angle. Pose Estimator is used instead of Odometry because
-    // of its ability to use april tag data
-    //frc::SwerveDriveOdometry<4> m_odometry{};
-
-    /**
-     * Function for updating the robot's tracking calculations.
-     * Called by Drivetrain execute function. Uses time, gyro, and
-     * swerve module positions to get bot position.
-    *
-
-   //-GMS - Odometry
-    
-    void UpdateOdometry();
-
-    void TryAddVisionMeasurement(double correctedGyroDegrees);
-
-    bool m_bUseCameraMeasurements;
-
-    frc::Timer *m_DrivetrainTimer;*/
-    
 };

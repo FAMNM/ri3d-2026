@@ -1,25 +1,3 @@
-//---------------------------------------------------------------------------
-//
-// Robot.h - Robot Class Definition.
-//
-//---------------------------------------------------------------------------
-//
-// Date       Name      Changes
-// ---------  --------  -------------------------------------------
-// 28-Feb-25  JJB       Added file header with revision log.
-//
-//---------------------------------------------------------------------------
-//
-// Description:
-//    This class provides the following functions which are called by the
-// main loop at the appropriate times.
-//
-// Documentation:
-// https://first.wpi.edu/wpilib/allwpilib/docs/release/cpp/classfrc_1_1_iterative_robot_base.html
-// https://docs.wsr.studica.com/en/latest/docs/Software/programming/base-project-outline/robot.html
-//
-//---------------------------------------------------------------------------
-
 #pragma once
 
 #include <string>
@@ -64,7 +42,6 @@ class Robot : public frc::TimedRobot
 
       MainStateMachine m_MainStateMachine;   // Main Robot State Machine
 
-      // Autonomous Mode.
 
       frc::SendableChooser<std::string> m_chooser;
       const std::string AUTON_ROUTINE_01 = "01 - AUTON";

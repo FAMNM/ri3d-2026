@@ -4,7 +4,6 @@ MainStateMachine::MainStateMachine()
 {
 	// Initialize Class Member Variables
    m_eState = RobotMain::eState::STATE_START;
-
    m_eDriveState = RobotMain::eDriveState::STATE_NORMAL; 
 }
 
