@@ -29,7 +29,7 @@ namespace drivetrain
     static constexpr units::meters_per_second_t kMaxSpeed = 2.5_mps;  // 2.5 meters per second
     static constexpr units::radians_per_second_t kMaxAngularSpeed{ std::numbers::pi };  // 1/2 rotation per second 
 
-    static constexpr units::meter_t kWheelDistance = 0.54782769475136_m;  // The distance bewteen 2 adjacent (like 1 edge of the square, not the diagnol) 
+    static constexpr units::meter_t kWheelDistance = 0.594_m;  // The distance bewteen 2 adjacent (like 1 edge of the square, not the diagnol) 
 }
 
 using namespace ctre::phoenix6;
