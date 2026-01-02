@@ -38,20 +38,9 @@ void MainStateMachine::Execute()
    // cannot happen simultaneously because they use the same hardware).
    else if ( m_eState == RobotMain::eState::STATE_IDLE )
    {
-      
+      //Add controls here
+
    }
-   // *===================================================================*
-   // *                                                                   *
-   // *                          Command States                           *
-   // *                                                                   *
-   // *===================================================================*
-   // Code to be added
-
-
-   // *-------------------------*
-   // * Asynchronous Operations *
-   // *-------------------------*
-   // Call the execute methods of the Asynchronous operations.
 
    // *--------------------*
    // * Driving Operations *

@@ -6,9 +6,9 @@
 #include "Drivetrain.h"                // Drivetrain state machine class
                                        //    definition
 
-// *------------------------------------------------*
-// * Top Level (Main) State Machine Enumerated Type *
-// *------------------------------------------------*
+#include <rev/SparkMax.h>
+
+using namespace rev::spark;
 
 namespace RobotMain
 {
@@ -56,6 +56,10 @@ class MainStateMachine
 
       // State Machine Object Instances.
       Drivetrain m_Drivetrain;
+
+
+      // Add Motors Here
+      // EX) SparkMax m_motor{ 14, SparkLowLevel::MotorType::kBrushless };
 };
 
 #endif // MAIN_STATE_MACHINE_H_

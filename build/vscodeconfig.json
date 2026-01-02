@@ -15,6 +15,8 @@
     "systemCArgs": [],
     "allLibFiles": [
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\058d32d3fc529f982c7b892212a0219c\\transformed\\wpilibNewCommands-cpp-2025.3.2-headers\\",
+      "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\e73c8d8dce248ec3e4d8ba3344a30e0b\\transformed\\REVLib-cpp-2025.0.3-headers\\",
+      "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\0f0dcf8e1e4e7922f7b3fdd81f65ee2e\\transformed\\REVLib-driver-2025.0.3-headers\\",
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\fda44d6cf50db1893041f60579f3679d\\transformed\\photonlib-cpp-v2025.2.1-headers\\",
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\fbd093f603a311c684f0c38f85e470fa\\transformed\\photontargeting-cpp-v2025.2.1-headers\\",
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\35a5a1bb3ee294617802eef6532697fb\\transformed\\wpiapi-cpp-5.35.1-headers\\",
@@ -64,6 +66,8 @@
     ],
     "allLibHeaders": [
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\058d32d3fc529f982c7b892212a0219c\\transformed\\wpilibNewCommands-cpp-2025.3.2-headers\\",
+      "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\e73c8d8dce248ec3e4d8ba3344a30e0b\\transformed\\REVLib-cpp-2025.0.3-headers\\",
+      "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\0f0dcf8e1e4e7922f7b3fdd81f65ee2e\\transformed\\REVLib-driver-2025.0.3-headers\\",
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\fda44d6cf50db1893041f60579f3679d\\transformed\\photonlib-cpp-v2025.2.1-headers\\",
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\fbd093f603a311c684f0c38f85e470fa\\transformed\\photontargeting-cpp-v2025.2.1-headers\\",
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\35a5a1bb3ee294617802eef6532697fb\\transformed\\wpiapi-cpp-5.35.1-headers\\",
@@ -129,6 +133,8 @@
         ],
         "libHeaders": [
           "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\058d32d3fc529f982c7b892212a0219c\\transformed\\wpilibNewCommands-cpp-2025.3.2-headers\\",
+          "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\e73c8d8dce248ec3e4d8ba3344a30e0b\\transformed\\REVLib-cpp-2025.0.3-headers\\",
+          "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\0f0dcf8e1e4e7922f7b3fdd81f65ee2e\\transformed\\REVLib-driver-2025.0.3-headers\\",
           "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\fda44d6cf50db1893041f60579f3679d\\transformed\\photonlib-cpp-v2025.2.1-headers\\",
           "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\fbd093f603a311c684f0c38f85e470fa\\transformed\\photontargeting-cpp-v2025.2.1-headers\\",
           "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\35a5a1bb3ee294617802eef6532697fb\\transformed\\wpiapi-cpp-5.35.1-headers\\",
@@ -237,6 +243,8 @@
     "systemCArgs": [],
     "allLibFiles": [
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\058d32d3fc529f982c7b892212a0219c\\transformed\\wpilibNewCommands-cpp-2025.3.2-headers\\",
+      "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\e73c8d8dce248ec3e4d8ba3344a30e0b\\transformed\\REVLib-cpp-2025.0.3-headers\\",
+      "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\0f0dcf8e1e4e7922f7b3fdd81f65ee2e\\transformed\\REVLib-driver-2025.0.3-headers\\",
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\fda44d6cf50db1893041f60579f3679d\\transformed\\photonlib-cpp-v2025.2.1-headers\\",
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\fbd093f603a311c684f0c38f85e470fa\\transformed\\photontargeting-cpp-v2025.2.1-headers\\",
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\35a5a1bb3ee294617802eef6532697fb\\transformed\\wpiapi-cpp-5.35.1-headers\\",
@@ -286,6 +294,8 @@
     ],
     "allLibHeaders": [
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\058d32d3fc529f982c7b892212a0219c\\transformed\\wpilibNewCommands-cpp-2025.3.2-headers\\",
+      "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\e73c8d8dce248ec3e4d8ba3344a30e0b\\transformed\\REVLib-cpp-2025.0.3-headers\\",
+      "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\0f0dcf8e1e4e7922f7b3fdd81f65ee2e\\transformed\\REVLib-driver-2025.0.3-headers\\",
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\fda44d6cf50db1893041f60579f3679d\\transformed\\photonlib-cpp-v2025.2.1-headers\\",
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\fbd093f603a311c684f0c38f85e470fa\\transformed\\photontargeting-cpp-v2025.2.1-headers\\",
       "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\35a5a1bb3ee294617802eef6532697fb\\transformed\\wpiapi-cpp-5.35.1-headers\\",
@@ -350,6 +360,8 @@
         ],
         "libHeaders": [
           "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\058d32d3fc529f982c7b892212a0219c\\transformed\\wpilibNewCommands-cpp-2025.3.2-headers\\",
+          "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\e73c8d8dce248ec3e4d8ba3344a30e0b\\transformed\\REVLib-cpp-2025.0.3-headers\\",
+          "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\0f0dcf8e1e4e7922f7b3fdd81f65ee2e\\transformed\\REVLib-driver-2025.0.3-headers\\",
           "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\fda44d6cf50db1893041f60579f3679d\\transformed\\photonlib-cpp-v2025.2.1-headers\\",
           "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\fbd093f603a311c684f0c38f85e470fa\\transformed\\photontargeting-cpp-v2025.2.1-headers\\",
           "C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\35a5a1bb3ee294617802eef6532697fb\\transformed\\wpiapi-cpp-5.35.1-headers\\",

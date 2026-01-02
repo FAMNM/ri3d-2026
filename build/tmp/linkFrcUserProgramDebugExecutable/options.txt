@@ -5,6 +5,8 @@ C:\\FAMNM\\ri3d-2026\\build\\objs\\frcUserProgram\\debug\\frcUserProgramCpp\\3bg
 C:\\FAMNM\\ri3d-2026\\build\\objs\\frcUserProgram\\debug\\frcUserProgramCpp\\6nsvqfctethfz1e0q6sy8e6t4\\MainStateMachine.o
 C:\\FAMNM\\ri3d-2026\\build\\objs\\frcUserProgram\\debug\\frcUserProgramCpp\\bv8allmn53jp7hrwetrf7id8i\\Drivetrain.o
 C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\6a8621c5bf24c8fff99e9a0477de2069\\transformed\\wpilibNewCommands-cpp-2025.3.2-linuxathenadebug\\linux\\athena\\shared\\libwpilibNewCommandsd.so
+C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\df9b329a7448fcadcf04cf70ac463e12\\transformed\\REVLib-cpp-2025.0.3-linuxathenastaticdebug\\linux\\athena\\static\\libREVLib.a
+C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\6fa4123235da8d7a7de6d37af843e063\\transformed\\REVLib-driver-2025.0.3-linuxathenastaticdebug\\linux\\athena\\static\\libREVLibDriver.a
 C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\b734ad2bae1902778a0b61d64a047b7c\\transformed\\photonlib-cpp-v2025.2.1-linuxathenadebug\\linux\\athena\\shared\\libphotonlib.so
 C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\b469182eae92eb3d97e593dc778288be\\transformed\\photontargeting-cpp-v2025.2.1-linuxathenadebug\\linux\\athena\\shared\\libphotontargeting.so
 C:\\Users\\gmans\\.gradle\\caches\\8.11\\transforms\\b469182eae92eb3d97e593dc778288be\\transformed\\photontargeting-cpp-v2025.2.1-linuxathenadebug\\linux\\athena\\shared\\libphotontargetingJNI.so
