@@ -1,35 +1,9 @@
 See file:///C:/FAMNM/ri3d-2026/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
 compiling MainStateMachine.cpp successful.
-In file included from C:\FAMNM\ri3d-2026\src\main\include/MainStateMachine.h:6,
-                 from C:\FAMNM\ri3d-2026\src\main\cpp\MainStateMachine.cpp:1:
-C:\FAMNM\ri3d-2026\src\main\include/Drivetrain.h:187:5: warning: "/*" within comment [-Wcomment]
-  187 |     /**
-      |      
 
 compiling Robot.cpp successful.
-In file included from C:\FAMNM\ri3d-2026\src\main\include/MainStateMachine.h:6,
-                 from C:\FAMNM\ri3d-2026\src\main\include/Robot.h:44,
-                 from C:\FAMNM\ri3d-2026\src\main\cpp\Robot.cpp:1:
-C:\FAMNM\ri3d-2026\src\main\include/Drivetrain.h:187:5: warning: "/*" within comment [-Wcomment]
-  187 |     /**
-      |      
-
-compiling SwerveModule.cpp successful.
-C:\FAMNM\ri3d-2026\src\main\cpp\SwerveModule.cpp: In member function 'void SwerveModule::ConfigModule()':
-C:\FAMNM\ri3d-2026\src\main\cpp\SwerveModule.cpp:79:33: warning: 'ctre::phoenix::StatusCode ctre::phoenix6::hardware::TalonFX::SetInverted(bool)' is deprecated: This API is deprecated for removal in 2026. Since invert is a config, apply the invert setting as part of a full configs::TalonFXConfiguration object. Invert can be found in the MotorOutput config group. [-Wdeprecated-declarations]
-   79 |         m_driveMotor.SetInverted(true);
-      |         ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
-In file included from C:\FAMNM\ri3d-2026\src\main\include/SwerveModule.h:16,
-                 from C:\FAMNM\ri3d-2026\src\main\cpp\SwerveModule.cpp:1:
-C:\Users\gmans\.gradle\caches\8.11\transforms\60824c4705d962a87ea5758fbb7056ce\transformed\wpiapi-cpp-25.3.1-headers/ctre/phoenix6/TalonFX.hpp:162:31: note: declared here
-  162 |     ctre::phoenix::StatusCode SetInverted(bool isInverted);
-      |                               ^~~~~~~~~~~
 
 compiling Drivetrain.cpp successful.
-In file included from C:\FAMNM\ri3d-2026\src\main\cpp\Drivetrain.cpp:1:
-C:\FAMNM\ri3d-2026\src\main\include/Drivetrain.h:187:5: warning: "/*" within comment [-Wcomment]
-  187 |     /**
-      |      
 C:\FAMNM\ri3d-2026\src\main\cpp\Drivetrain.cpp:170:5: warning: "/*" within comment [-Wcomment]
   170 |     /*LimelightHelpers::PoseEstimate mt2_pose = LimelightHelpers::getBotPoseEstimate_wpiBlue_MegaTag2("limelight");
       |      
